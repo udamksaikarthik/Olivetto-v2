@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"d:\\\\Karthik Digital Services Projects\\\\Olivetto v2\\\\assets\" /a)",
+      "Bash(Get-ChildItem -Path \"d:\\\\Karthik Digital Services Projects\\\\Olivetto v2\" -Recurse -File)",
+      "Bash(Select-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(Get-ChildItem -Path \"d:\\\\Karthik Digital Services Projects\\\\Olivetto v2\" -Recurse -Directory)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(Sort-Object)"
+    ]
+  }
+}

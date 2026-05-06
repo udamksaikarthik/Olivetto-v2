@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Olivetto — authentic Italian restaurant in South Shields. Wood-fired pizzas, fresh pastas, char-grilled steaks and seafood. Travellers' Choice 2025." />
+    <meta name="theme-color" content="#1a0f0a" />
+    <title>Olivetto · Authentic Italian Restaurant · South Shields</title>
+
+    <!-- Fonts: distinctive script for the wordmark, refined serif for body, clean sans for nav -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:wght@300;400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+    <link rel="icon" href="assets/olivetto-logo.jpg" type="image/jpeg" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+    <!-- Mobile top bar -->
+    <header class="mobile-bar" id="mobileBar">
+        <a href="#story" class="mobile-brand" aria-label="Olivetto, home">
+            <span class="brand-script">Olivetto</span>
+            <span class="brand-tag">RESTAURANT</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="sidebar">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <!-- Sidebar (Delrio's-style fixed left rail on desktop, drawer on mobile) -->
+    <aside class="sidebar" id="sidebar" aria-label="Primary">
+        <div class="sidebar-inner">
+            <a href="#story" class="brand" aria-label="Olivetto, home">
+                <span class="brand-script">Olivetto</span>
+                <span class="brand-tag">RESTAURANT</span>
+            </a>
+            <p class="brand-sub">Authentic Italian dining<br />on Sunderland Road, South Shields</p>
+
+            <nav class="nav" aria-label="Sections">
+                <a href="#story" class="nav-link" data-target="story">Our Story</a>
+                <a href="#menu" class="nav-link" data-target="menu">Our Menu</a>
+                <a href="#bookings" class="nav-link" data-target="bookings">Bookings</a>
+                <a href="#order" class="nav-link" data-target="order">Order Online</a>
+                <a href="#reviews" class="nav-link" data-target="reviews">Reviews</a>
+                <a href="#contact" class="nav-link" data-target="contact">Contact</a>
+                <a href="#hours" class="nav-link" data-target="hours">Opening Hours</a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <a href="tel:+441916915531" class="phone">0191 691 5531</a>
+                <p class="address">252B Sunderland Road<br />South Shields NE34 6QY</p>
+
+                <p class="sidebar-section-label">Opening Hours</p>
+                <ul class="sidebar-hours">
+                    <li class="closed"><span>Monday</span><span>Closed</span></li>
+                    <li><span>Tue – Thu</span><span>10:00 – 22:00</span></li>
+                    <li><span>Fri – Sat</span><span>10:00 – 23:00</span></li>
+                    <li><span>Sunday</span><span>10:00 – 21:00</span></li>
+                </ul>
+
+                <div class="sidebar-map">
+                    <iframe
+                        title="Olivetto map"
+                        src="https://www.google.com/maps?q=252B+Sunderland+Road,+South+Shields+NE34+6QY&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+
+                <div class="badge">
+                    <span class="badge-star">★</span>
+                    <div>
+                        <strong>Travellers' Choice</strong>
+                        <span>2025 · Tripadvisor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Background image overlay (the warm Italian-restaurant atmosphere) -->
+    <div class="bg-layer" aria-hidden="true"></div>
+    <div class="bg-veil" aria-hidden="true"></div>
+
+    <main class="main">
+
+        <!-- STORY (with Benvenuti welcome at top) -->
+        <section class="panel" id="story">
+            <div class="panel-inner">
+
+                <!-- ── Benvenuti ── -->
+                <p class="eyebrow">Benvenuti</p>
+                <h1>Benvenuti — welcome to Olivetto.</h1>
+                <p class="lead">
+                    A little corner of Italy on Sunderland Road, South Shields. From fresh pasta and authentic pizzas to char-grilled steaks, Mediterranean seafood, chicken dishes and comforting homemade favourites, Olivetto brings together the flavours of Italy in a warm and relaxed setting.
+                </p>
+                <p>
+                    Join us for lunch, dinner, early bird dining or Sunday lunch. Walk-ins are welcome, although booking is recommended during busy evenings and weekends.
+                </p>
+                <div class="cta-row">
+                    <a href="tel:+441916915531" class="btn btn-primary">Book a Table</a>
+                    <a href="#menu" class="btn btn-ghost">View the Menu</a>
+                </div>
+
+                <!-- ── Our Story ── -->
+                <div class="content-section">
+                    <div class="story-split">
+                        <div class="story-text-col">
+                            <p class="eyebrow">La Nostra Storia</p>
+                            <h2>Our Story</h2>
+                            <p>Welcome to Olivetto, a warm and inviting Italian restaurant on Sunderland Road, South Shields, serving freshly prepared food inspired by the heart of Italy and the Mediterranean.</p>
+                            <p>At Olivetto, our focus is simple: good food, welcoming service, and a relaxed dining experience where every guest feels at home. From wood-fired style pizzas and handmade pasta dishes to char-grilled steaks, seafood, chicken parmos, burgers and fresh lunch options, our menu brings together classic Italian flavours with comforting local favourites.</p>
+                            <p>Whether you are joining us for a family meal, a romantic dinner, a casual lunch, or a special celebration, Olivetto offers a cosy atmosphere where food is made to be enjoyed and shared.</p>
+                            <p>Our kitchen prepares dishes with care, using fresh ingredients, rich sauces, traditional flavours and generous portions. Every plate is created with the aim of giving our guests a memorable dining experience from the first bite to the last.</p>
+                        </div>
+                        <div class="story-image-col">
+                            <img src="assets/chef%20image.jpg" alt="Olivetto head chef" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ── Our Food ── -->
+                <div class="content-section">
+                    <p class="eyebrow">Il Cibo</p>
+                    <h2>Our Food</h2>
+                    <p>At Olivetto, food is at the centre of everything we do.</p>
+                    <p>Our menu is designed to offer something for everyone, from light lunches and fresh crispy salads to rich pasta dishes, stone-style pizzas, seafood, grilled meats, chicken parmos and homemade burgers.</p>
+                    <p>Guests can enjoy Italian classics such as Spaghetti Bolognese, Tagliatelle Carbonara, Lasagne, Penne Alfredo, Risotto, Seafood Linguine and Margherita Pizza, alongside house favourites including Chicken Parmo, Sirloin Diane, Fillet al Pepe, Sea Bass, Salmon Pescatora and Tower Burger.</p>
+                    <p>We also offer a popular Early Bird Menu, giving guests the perfect opportunity to enjoy a starter, pizza or pasta, and a hot drink at excellent value.</p>
+                    <p>Every dish is prepared with care using fresh ingredients, bold flavours and generous portions. Whether you are craving pasta, pizza, seafood, steak, chicken or a relaxed lunch, Olivetto has something to suit every appetite.</p>
+                    <div class="food-grid">
+                        <img src="assets/Dishes/diverse%20food.jpg" alt="A selection of dishes at Olivetto" />
+                        <img src="assets/Dishes/Olivetto_BologneseParmo.jpg" alt="Bolognese Parmo" />
+                        <img src="assets/Dishes/Olivetto_GoatCheese.jpg" alt="Goat Cheese starter" />
+                        <img src="assets/Dishes/Olivetto_linguineConGamb.jpg" alt="Linguine con Gamberoni" />
+                        <img src="assets/Dishes/Olivetto_SundayLunch_BlackPudding.jpg" alt="Sunday Lunch — Black Pudding" />
+                        <img src="assets/Dishes/Olivetto_SundayLunch_Hero1.jpg" alt="Sunday Lunch" />
+                    </div>
+                </div>
+
+                <!-- ── The Restaurant ── -->
+                <div class="content-section">
+                    <div class="restaurant-split">
+                        <div class="restaurant-text-col">
+                            <p class="eyebrow">Il Ristorante</p>
+                            <h2>The Restaurant</h2>
+                            <p>Olivetto offers a relaxed and welcoming dining experience in the heart of South Shields.</p>
+                            <p>Our restaurant is perfect for casual meals, date nights, family gatherings, birthdays, business lunches and group bookings. The warm interior, friendly service and carefully prepared menu create the ideal setting for both everyday dining and special occasions.</p>
+                            <p>Whether you are visiting for a quick lunch, an early evening meal, a weekend dinner or a Sunday lunch, our team is here to make you feel welcome from the moment you arrive.</p>
+                        </div>
+                        <div class="restaurant-image-col">
+                            <img src="assets/Olivetto%20Entrance%20shop%20front%20image.jpg" alt="Olivetto restaurant entrance on Sunderland Road, South Shields" />
+                            <div class="award-display">
+                                <img src="assets/RestaurantguruAward.jpeg" alt="RestaurantGuru Award — Olivetto" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FULL MENU — À La Carte + Lunch & Breakfast in one section -->
+        <section class="panel" id="menu">
+            <div class="panel-inner">
+                <p class="eyebrow">Il Menu</p>
+                <h2>Our Menu</h2>
+                <p class="menu-intro">
+                    Traditional Italian starters, hand-finished pastas, stone-baked pizzas,
+                    char-grilled steaks, fresh seafood, and our much-loved Chicken Parmo —
+                    all prepared fresh daily. Breakfast and light lunch options also served all day.
+                </p>
+
+                <!-- Antipasti -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Antipasti <span>Starters</span></h3>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Soup of the Day</span><span class="m-desc">Tomato, basil and mozzarella with crusty bread.</span></div><span class="m-price">£ 5.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Flatbread</span><span class="m-desc">Fresh oven baked bread served with butter and marinated olives.</span></div><span class="m-price">£ 4.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Potato Skins</span><span class="m-desc">Deep fried potato skins, served with sweet chilli and garlic mayo.</span></div><span class="m-price">£ 5.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Bruschetta</span><span class="m-desc">Diced tomato, fresh basil and onion, marinated in extra virgin olive oil, with mozzarella and balsamic glaze.</span></div><span class="m-price">£ 5.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Garlic Mushrooms</span><span class="m-desc">Pan fried mushrooms in garlic, white wine and double cream, topped with parmesan, served with crusty bread.</span></div><span class="m-price">£ 6.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Garlic Bread</span><span class="m-desc">Thin Italian crusty pizza with a choice of garlic, cheese, tomato or cheese and tomato.</span></div><span class="m-price">£ 6.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Mussels Arrabbiata or Marinière</span><span class="m-desc">Mussels with chilli arrabbiata sauce or white wine, garlic and cream.</span></div><span class="m-price">£ 9.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Nachos Mexicana <small class="m-tag">for 2</small></span><span class="m-desc">Crispy nachos with Napoli sauce, cheddar cheese, bolognese sauce, jalapeños, salsa, sour cream and guacamole.</span></div><span class="m-price">£ 8.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Anti Pasto del Contadino <small class="m-tag">to share</small></span><span class="m-desc">Italian cured meats served with pickles, olives and bread.</span></div><span class="m-price">£ 10.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Loaded Royal</span><span class="m-desc">Potato skins topped with our homemade bolognese sauce and cheddar cheese.</span></div><span class="m-price">£ 6.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Spicy Prawns</span><span class="m-desc">Deep fried spicy prawns in breadcrumbs, served with sweet chilli and garlic mayo.</span></div><span class="m-price">£ 6.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Prawn Cocktail</span><span class="m-desc">Fresh prawns on a bed of lettuce topped with marie rose sauce, served with bread and butter.</span></div><span class="m-price">£ 6.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Smoked Salmon</span><span class="m-desc">Diced smoked salmon with mascarpone cheese, dill and lemon juice, served on toasted bread with mango sauce and baby prawns.</span></div><span class="m-price">£ 7.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Arancini</span><span class="m-desc">Fried risotto balls with wild mushrooms, truffle, parmesan and arrabbiata sauce.</span></div><span class="m-price">£ 5.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Black Pudding</span><span class="m-desc">Black pudding with battered goats cheese, topped with marmalade onions and a balsamic glaze.</span></div><span class="m-price">£ 6.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Goats Cheese</span><span class="m-desc">Halloumi and goats cheese in breadcrumbs with hazelnuts, drizzled in honey and mixed berries.</span></div><span class="m-price">£ 6.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Calamari</span><span class="m-desc">Deep fried squid rings served with sweet chilli and garlic mayo.</span></div><span class="m-price">£ 6.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pâté</span><span class="m-desc">Chicken liver pâté served with marmalade onions, toasted bread and balsamic glaze.</span></div><span class="m-price">£ 5.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Caprese Salad</span><span class="m-desc">Buffalo mozzarella with beef tomatoes, drizzled in extra virgin olive oil with fresh basil and balsamic vinegar.</span></div><span class="m-price">£ 5.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- La Pizza -->
+                <div class="menu-block">
+                    <h3 class="menu-h">La Pizza <span>Hand-stretched · stone-baked</span></h3>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Margarita</span><span class="m-desc">Mozzarella cheese and tomato sauce.</span></div><span class="m-price">£ 10.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pescatora</span><span class="m-desc">Mediterranean mixed seafood.</span></div><span class="m-price">£ 13.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Vegetariana</span><span class="m-desc">Mushrooms, peppers, onions, olives and artichokes.</span></div><span class="m-price">£ 11.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Hawaiian</span><span class="m-desc">Cheese, tomato sauce, ham and pineapple.</span></div><span class="m-price">£ 11.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Prosciutto Funghi</span><span class="m-desc">Ham and mushroom.</span></div><span class="m-price">£ 11.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Diavolo</span><span class="m-desc">Pepperoni, parma ham and jalapeños.</span></div><span class="m-price">£ 14.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">BBQ</span><span class="m-desc">Cheese, tomato sauce, BBQ sauce, chicken and pancetta.</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Quattro Stagioni</span><span class="m-desc">Ham, mushrooms, olives and artichokes.</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Calzone</span><span class="m-desc">Folded pizza, ham, mushrooms and spinach, served with Napoli sauce and cheese.</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Hotshot Calzone</span><span class="m-desc">Folded pizza, parma ham, mushroom, pepperoni and jalapeños, served with Napoli sauce and cheese.</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pepperoni</span><span class="m-desc">Cheese, tomato base and pepperoni.</span></div><span class="m-price">£ 12.90</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo</span><span class="m-desc">Cheese, tomato sauce, chicken and BBQ sauce.</span></div><span class="m-price">£ 12.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Bolognese</span><span class="m-desc">Cheese, tomato and homemade bolognese sauce.</span></div><span class="m-price">£ 11.95</span></li>
+                    </ul>
+                    <p class="menu-combo">Half Pizza / Half Pasta — <strong>£ 15.95</strong> &nbsp;&nbsp;·&nbsp;&nbsp; Half Parmo / Half Pasta — <strong>£ 16.95</strong></p>
+                </div>
+
+                <!-- Pasta -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Pasta <span>Hand-finished daily</span></h3>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Traditional Bolognese</span><span class="m-desc">Spaghetti with our delicious homemade bolognese sauce.</span></div><span class="m-price">£ 11.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Tagliatelle Picante</span><span class="m-desc">Tagliatelle with chicken, onions, fresh tomato, extra virgin olive oil, garlic and chilli flakes.</span></div><span class="m-price">£ 12.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Lasagne</span><span class="m-desc">Layers of oven baked pasta with bolognese, tomato sauce and béchamel.</span></div><span class="m-price">£ 12.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Tagliatelle alla Pepe</span><span class="m-desc">Tagliatelle cooked in garlic butter and chicken with a homemade peppercorn sauce.</span></div><span class="m-price">£ 11.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Gnocchetti Sardi</span><span class="m-desc">Traditional Italian short pasta tossed with spiced sausages and Napoli sauce.</span></div><span class="m-price">£ 12.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Tagliatelle Carbonara</span><span class="m-desc">Pasta ribbons with pancetta, onions, black pepper and garlic in a creamy sauce, finished with parmesan.</span></div><span class="m-price">£ 12.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Penne Arrabbiata</span><span class="m-desc">Penne with onions, garlic, tomato, extra virgin olive oil, chilli and olives.</span></div><span class="m-price">£ 11.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Penne Pollo</span><span class="m-desc">Penne in a creamy tomato sauce with mushrooms, onions, chicken and herbs.</span></div><span class="m-price">£ 12.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Penne Alfredo</span><span class="m-desc">Penne with chicken, mushroom and onions in a creamy pesto and garlic sauce.</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Penne 4 Formaggi</span><span class="m-desc">Penne in a creamy sauce with onion, garlic, cheddar, parmesan, mozzarella and blue cheese.</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo Italiano</span><span class="m-desc">Tender marinated chicken with onion and mushrooms, simmered in tomato sauce, served with tagliatelle.</span></div><span class="m-price">£ 12.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Special Pasta & Risotto -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Speciali <span>Pasta &amp; Risotto</span></h3>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Tagliatella Salmon</span><span class="m-desc">Pasta ribbons with smoked salmon, white wine and tomato in a rich creamy sauce, finished with spring onions and parmesan.</span></div><span class="m-price">£ 14.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Seafood Linguine</span><span class="m-desc">Linguine with mixed seafood, onions, fresh tomato, extra virgin olive oil, garlic and chilli.</span></div><span class="m-price">£ 15.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Linguine con Gamberoni Pollo</span><span class="m-desc">Linguine with king prawns, chicken, tomato sauce and a hint of chilli.</span></div><span class="m-price">£ 14.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Tagliate al Pepe</span><span class="m-desc">Tender marinated chicken with onion and mushrooms, simmered in tomato sauce, served with tagliatelle.</span></div><span class="m-price">£ 13.90</span></li>
+                        <li class="menu-item"><div><span class="m-name">Risotto alla Pescatora</span><span class="m-desc">Arborio rice in a creamy herb and garlic sauce with chicken, baby prawns, onions and parmesan.</span></div><span class="m-price">£ 13.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Risotto ai Frutti di Mare</span><span class="m-desc">Arborio rice with mixed seafood and shellfish, cooked with onion, fresh tomato, olive oil, garlic and chilli.</span></div><span class="m-price">£ 15.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Sides -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Contorni <span>Sides · £ 3.50 each</span></h3>
+                    <ul class="menu-list menu-list-sides">
+                        <li class="menu-item"><div><span class="m-name">Mixed Salad</span></div><span class="m-price">£ 3.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Homemade Chips / French Fries</span></div><span class="m-price">£ 3.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Green Salad</span></div><span class="m-price">£ 3.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Tomato &amp; Onion Salad</span></div><span class="m-price">£ 3.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Steamed Arborio Rice</span></div><span class="m-price">£ 3.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Salted New Potatoes</span></div><span class="m-price">£ 3.50</span></li>
+                    </ul>
+                </div>
+
+                <!-- Pollo / Chicken -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Pollo <span>Chicken</span></h3>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Pan-fried Chicken Breast</span><span class="m-desc">Served with salad, chips and garlic mayonnaise.</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo Milano</span><span class="m-desc">Flattened chicken breast coated in golden breadcrumbs, cooked in garlic and herb butter, served on a bed of tomato spaghetti.</span></div><span class="m-price">£ 15.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo Pescatora</span><span class="m-desc">Chicken breast in a creamy mixed herb, garlic and tomato sauce with baby prawns and onion.</span></div><span class="m-price">£ 15.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo Gamberoni alla Termidoro</span><span class="m-desc">Chicken breast cooked with tiger prawns in white wine, mustard and cream sauce.</span></div><span class="m-price">£ 16.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Fajita Mexicana</span><span class="m-desc">Chicken, steak or mixed, marinated with cajun spices, onions and peppers. Served with tortilla bread and a selection of dips and butter. £ 2 extra for steak.</span></div><span class="m-price">£ 15.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo alla Crema</span><span class="m-desc">Chicken breast cooked with mushrooms, garlic and onions in a homemade creamy white wine sauce.</span></div><span class="m-price">£ 15.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo al Pepe</span><span class="m-desc">Chicken breast cooked in homemade peppercorn sauce, served with hand cut chips and salad.</span></div><span class="m-price">£ 15.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo al Diane</span><span class="m-desc">Chicken breast with onions and mushrooms in a homemade diane sauce, infused with brandy, French mustard and cream.</span></div><span class="m-price">£ 15.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo ala Pesto</span><span class="m-desc">Pan fried chicken breast with onions, sun dried tomato, pesto and a white wine creamy sauce.</span></div><span class="m-price">£ 15.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo Gorgonzola</span><span class="m-desc">Chicken breast cooked in blue cheese and white wine creamy sauce.</span></div><span class="m-price">£ 15.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Chicken Parmo -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Chicken Parmo <span>A North-East favourite</span></h3>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Traditional Chicken Parmo</span><span class="m-desc">Flattened chicken breast, coated in golden breadcrumbs, topped with creamy béchamel and grilled with cheddar cheese.</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Bolognese Parmo</span><span class="m-desc">Traditional parmo finished with rich homemade bolognese.</span></div><span class="m-price">£ 13.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Hot Shot Parmo</span><span class="m-desc">Traditional parmo topped with jalapeños and pepperoni for a kick.</span></div><span class="m-price">£ 14.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Kiev Parmo</span><span class="m-desc">Traditional parmo topped with garlic butter — rich and indulgent.</span></div><span class="m-price">£ 12.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Seafood -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Frutti di Mare <span>Seafood</span></h3>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Sea Bass</span><span class="m-desc">Pan fried fillet of sea bass on a bed of roast Mediterranean vegetables, sautéed potatoes and baby prawns in white wine creamy parsley sauce.</span></div><span class="m-price">£ 18.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Salmon Pescatora</span><span class="m-desc">Oven baked salmon in a creamy mixed herb and garlic with baby prawns, served with baby potatoes and salad.</span></div><span class="m-price">£ 18.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Fish &amp; Chips</span><span class="m-desc">Battered fish served with homemade chips, tartare sauce, peas or beans and lemon.</span></div><span class="m-price">£ 13.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Gamberoni Dolce Latte</span><span class="m-desc">King prawns in Italian blue cheese, white wine, spring onion, garlic, pesto and cream, served with sautéed baby potatoes.</span></div><span class="m-price">£ 17.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Mussels Arrabbiata or Marinière</span><span class="m-desc">Mussels in chilli arrabbiata sauce or white wine, garlic and cream.</span></div><span class="m-price">£ 17.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Scampi</span><span class="m-desc">Breaded scampi served with homemade wedges, tartare sauce, green beans, salad and lemon wedge.</span></div><span class="m-price">£ 13.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Char-grilled Steaks -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Grigliate <span>Char-grilled steaks · 10oz</span></h3>
+                    <p class="menu-section-note">All steaks served with chunky hand cut wedges, onion rings, mushrooms, tomato and salad.</p>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Fillet Semplice</span><span class="m-desc">Chargrilled fillet steak, cooked to your specification, served the natural way.</span></div><span class="m-price">£ 24.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Fillet al Pepe</span><span class="m-desc">In a peppercorn sauce.</span></div><span class="m-price">£ 26.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Fillet Diane</span><span class="m-desc">Creamy diane sauce with mushrooms and onions, infused with brandy, French mustard and cream.</span></div><span class="m-price">£ 26.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Fillet Pescatora</span><span class="m-desc">Creamy mixed herbs, onion, garlic and tomato sauce with baby prawns.</span></div><span class="m-price">£ 26.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Fillet Surf &amp; Turf</span><span class="m-desc">Fillet steak cooked in garlic butter with king prawns.</span></div><span class="m-price">£ 34.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Sirloin Semplice</span><span class="m-desc">Chargrilled sirloin steak, cooked to your specification.</span></div><span class="m-price">£ 23.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Sirloin al Pepe</span><span class="m-desc">In a peppercorn sauce.</span></div><span class="m-price">£ 24.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Sirloin Diane</span><span class="m-desc">Creamy diane sauce with mushrooms and onions, infused with brandy, French mustard and cream.</span></div><span class="m-price">£ 24.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Sirloin Dolce Latte</span><span class="m-desc">Italian blue cheese and white wine with spring onion and cream.</span></div><span class="m-price">£ 24.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Sirloin Pescatora</span><span class="m-desc">Creamy mixed herb, onion, garlic and tomato sauce with baby prawns.</span></div><span class="m-price">£ 25.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Sirloin Surf &amp; Turf</span><span class="m-desc">Sirloin steak cooked in garlic butter with king prawns.</span></div><span class="m-price">£ 29.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Burgers -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Amburger della Casa <span>Burgers</span></h3>
+                    <p class="menu-section-note">All burgers served with homemade chunky wedges and fresh crispy salad.</p>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Plain Burger</span></div><span class="m-price">£ 11.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Cheese Burger</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Goats Cheese Burger</span><span class="m-desc">Peppers and goats cheese.</span></div><span class="m-price">£ 13.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pancetta Burger</span><span class="m-desc">Pancetta, BBQ sauce and melted mozzarella.</span></div><span class="m-price">£ 13.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Caramelised Burger</span><span class="m-desc">Marmalade onions and grilled goats cheese.</span></div><span class="m-price">£ 13.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Pineapple Burger</span><span class="m-desc">Pineapple, ham and melted mozzarella.</span></div><span class="m-price">£ 12.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Tower Burger</span><span class="m-desc">Double cheeseburger.</span></div><span class="m-price">£ 15.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- ── Lunch & Breakfast divider ── -->
+                <div class="menu-block menu-block-divider">
+                    <p class="eyebrow">Pranzo &amp; Colazione</p>
+                    <h3 class="menu-h">Lunch &amp; Breakfast <span>Served all day</span></h3>
+                    <p class="menu-section-note">Stop in for a relaxed breakfast or a quick lunch. Everything served with hand-cut wedges, salad and coleslaw, and ready quickly.</p>
+                </div>
+
+                <!-- Breakfast -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Colazione <span>Breakfast</span></h3>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Full English Breakfast</span><span class="m-desc">2 bacon, 2 sausages, 2 fried eggs, baked beans, grilled tomato, mushrooms, black pudding and toast.</span></div><span class="m-price">£ 9.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Scrambled Egg on Toast</span></div><span class="m-price">£ 5.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Scrambled Egg on Toast with Bacon or Sausage</span></div><span class="m-price">£ 6.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Poached Egg on Toast</span></div><span class="m-price">£ 6.25</span></li>
+                        <li class="menu-item"><div><span class="m-name">Beans on Toast</span></div><span class="m-price">£ 4.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Scrambled Egg and Salmon</span></div><span class="m-price">£ 6.50</span></li>
+                        <li class="menu-item"><div><span class="m-name">Omelettes</span><span class="m-desc">Served with hand-cut wedges, salad and coleslaw. Choose: Mixed · Ham &amp; Cheese · Mushroom · Salmon · Cheese · Plain.</span></div><span class="m-price">£ 7.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Salads -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Insalate <span>Fresh Crispy Salads</span></h3>
+                    <p class="menu-section-note">Choose from: Tuna · Chargrilled Chicken · Ham · Prawn Marie Rose · Chargrilled Chicken &amp; Bacon · Scottish Oak Smoked Salmon · Mediterranean Veg with Goats Cheese.</p>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Fresh Crispy Salad</span></div><span class="m-price">£ 8.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Jacket Potatoes -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Patate al Forno <span>Jacket Potatoes</span></h3>
+                    <p class="menu-section-note">All served with dressed salad and coleslaw. Choose: Plain · Tuna Mayo · Chicken Mayo · Bacon &amp; Cheese · Cheese &amp; Beans · Prawn Marie Rose · Bolognese &amp; Cheese.</p>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Jacket Potato</span></div><span class="m-price">£ 6.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Sandwiches & Toasties & Paninis -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Panini &amp; Sandwich <span>Light bites</span></h3>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Sandwiches</span><span class="m-desc">Served with handcut wedges, salad and coleslaw. Choose: Tuna Mayo · Ham &amp; Cheese · Chicken Mayo · Prawn Marie Rose · Scottish Oak Smoked Salmon &amp; Cream Cheese.</span></div><span class="m-price">£ 6.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Toasties</span><span class="m-desc">All contain melted cheddar. Served with handcut wedges, salad and coleslaw. Choose: Cheese · Ham · Tuna Mayo · Chicken Mayo · Onion, Tomato &amp; Basil · Bacon.</span></div><span class="m-price">£ 6.95</span></li>
+                        <li class="menu-item"><div><span class="m-name">Paninis</span><span class="m-desc">All contain 100% melted mozzarella. Served with handcut wedges, salad and coleslaw. Choose: Chicken Mayo · BBQ Chicken · Mediterranean Veg &amp; Goats Cheese · Pepperoni, Ham, Onion, Tomato &amp; Basil · Tuna Mayo with Marmalade Onion.</span></div><span class="m-price">£ 7.95</span></li>
+                    </ul>
+                </div>
+
+                <!-- Early Bird -->
+                <div class="menu-block">
+                    <h3 class="menu-h">Early Bird <span>12:00 – 18:00</span></h3>
+                    <p class="menu-earlybird">Starter + Pizza or Pasta + Ice Cream or Americano &nbsp;—&nbsp; <strong>£ 12.95</strong></p>
+
+                    <p class="menu-sub-heading">Starters</p>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Soup</span><span class="m-desc">Homemade tomato, basil and mozzarella soup with crusty bread.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Garlic Bread</span><span class="m-desc">Fresh oven baked flatbread served with butter and marinated olives.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Potato Skins</span><span class="m-desc">Deep fried potato skins with sweet chilli and garlic mayo.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Pâté</span><span class="m-desc">Chicken liver pâté with onion marmalade on toasted bread and balsamic glaze.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Spicy Prawns</span><span class="m-desc">Deep fried spicy prawns in breadcrumbs with sweet chilli and garlic mayo.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Garlic Mushrooms</span><span class="m-desc">Pan fried mushrooms in garlic with white wine and double cream, topped with parmesan, served with crusty bread.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Loaded Royal</span><span class="m-desc">Potato skins topped with homemade bolognese sauce and cheddar cheese.</span></div></li>
+                    </ul>
+
+                    <p class="menu-sub-heading">Pasta</p>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Spaghetti Bolognese</span><span class="m-desc">Spaghetti with our homemade bolognese sauce.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Tagliatelle Picante</span><span class="m-desc">Tagliatelle with chicken, onions, fresh tomato, olive oil, garlic and chilli flakes.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Tagliatelle Carbonara</span><span class="m-desc">Pasta ribbons with pancetta, onions, black pepper and garlic in a creamy sauce, finished with parmesan.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Penne Alfredo</span><span class="m-desc">Penne with chicken, mushroom and onions in a creamy pesto and garlic sauce.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Penne Arrabbiata</span><span class="m-desc">Penne with tomato, chilli and olives.</span></div></li>
+                    </ul>
+
+                    <p class="menu-sub-heading">Pizza</p>
+                    <ul class="menu-list">
+                        <li class="menu-item"><div><span class="m-name">Margarita</span><span class="m-desc">Mozzarella cheese and tomato sauce.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Vegetariana</span><span class="m-desc">Mushrooms, peppers, onions, olives and artichokes.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Hawaiian</span><span class="m-desc">Cheese, tomato sauce, ham and pineapple.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Pepperoni</span><span class="m-desc">Cheese, tomato base and pepperoni.</span></div></li>
+                        <li class="menu-item"><div><span class="m-name">Pollo</span><span class="m-desc">Cheese, tomato sauce, chicken and garlic.</span></div></li>
+                    </ul>
+                </div>
+
+                <p class="menu-note">Menu prices are subject to change. Allergens available on request — please speak to our team. Vegetarian and vegan options across the menu.</p>
+            </div>
+        </section>
+
+        <!-- BOOKINGS -->
+        <section class="panel" id="bookings">
+            <div class="panel-inner">
+                <p class="eyebrow">Prenotazioni</p>
+                <h2>Book a Table</h2>
+
+                <p class="lead">
+                    To book a table at Olivetto, please call the restaurant directly and our team will be happy to help with your reservation.
+                </p>
+                <p>
+                    Whether you are planning a quiet dinner for two, a family celebration, a birthday gathering or a group booking, we are on hand to make sure everything is arranged to your liking. Simply give us a call and we will take care of the rest.
+                </p>
+                <p>
+                    Walk-ins are always welcome, though we recommend calling ahead during busy evenings and weekends to secure your preferred time. We look forward to welcoming you.
+                </p>
+
+                <div class="booking-phone-block">
+                    <span class="booking-phone-label">Call to Book</span>
+                    <a href="tel:+441916915531" class="booking-phone-number" aria-label="Call Olivetto on 0191 691 5531">0191 691 5531</a>
+                    <p class="booking-hours-note">Tuesday – Sunday · 10:00 until close · Closed Mondays</p>
+                    <a href="tel:+441916915531" class="btn btn-primary booking-call-btn" aria-label="Call Olivetto to reserve a table">Call Now to Book</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ORDER ONLINE -->
+        <section class="panel" id="order">
+            <div class="panel-inner">
+                <p class="eyebrow">Ordina Online</p>
+                <h2>Order Online</h2>
+
+                <p class="lead">
+                    Enjoy Olivetto at home. Order your favourite dishes online through Uber Eats, Just Eat or Deliveroo and have fresh Italian flavours delivered straight to your door.
+                </p>
+                <p>
+                    From wood-fired pizzas and handmade pastas to grilled steaks and seafood — all available to enjoy wherever you are.
+                </p>
+
+                <div class="order-cards">
+                    <a href="https://www.ubereats.com/gb/store/olivetto-italian-restaurant/8SEqU5S_UZ6cI8GAa5jktQ?srsltid=AfmBOopgVHbbucMIfwX1tAni0cIxz29J9bdNL9jWKP-EZPmKspUQDbz5"
+                       target="_blank" rel="noopener" class="order-card" aria-label="Order from Olivetto on Uber Eats (opens in new tab)">
+                        <span class="order-badge">U</span>
+                        <span class="order-card-name">Uber Eats</span>
+                        <span class="order-card-arrow">→</span>
+                    </a>
+                    <a href="https://www.just-eat.co.uk/restaurants-olivetto-south-shields/menu"
+                       target="_blank" rel="noopener" class="order-card" aria-label="Order from Olivetto on Just Eat (opens in new tab)">
+                        <span class="order-badge">J</span>
+                        <span class="order-card-name">Just Eat</span>
+                        <span class="order-card-arrow">→</span>
+                    </a>
+                    <a href="https://deliveroo.co.uk/menu/newcastle/south-shields/olivetto"
+                       target="_blank" rel="noopener" class="order-card" aria-label="Order from Olivetto on Deliveroo (opens in new tab)">
+                        <span class="order-badge">D</span>
+                        <span class="order-card-name">Deliveroo</span>
+                        <span class="order-card-arrow">→</span>
+                    </a>
+                </div>
+
+                <div class="booking-social-row">
+                    <a href="https://www.facebook.com/profile.php?id=100093670509996"
+                       target="_blank" rel="noopener" class="booking-fb-link" aria-label="Olivetto on Facebook (opens in new tab)">
+                        Follow us on Facebook →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- REVIEWS -->
+        <section class="panel" id="reviews">
+            <div class="panel-inner">
+                <p class="eyebrow">Recensioni</p>
+                <h2>What Our Guests Say</h2>
+
+                <!-- Platform summary -->
+                <div class="reviews-summary-row">
+                    <div class="reviews-summary-card">
+                        <div class="rsc-badge">G</div>
+                        <div class="rsc-body">
+                            <span class="rsc-platform">Google Reviews</span>
+                            <span class="rsc-stars">★★★★☆</span>
+                            <span class="rsc-meta">4.2 out of 5 · 196 reviews</span>
+                        </div>
+                    </div>
+                    <div class="reviews-summary-card">
+                        <div class="rsc-badge rsc-badge--ta">T</div>
+                        <div class="rsc-body">
+                            <span class="rsc-platform">Tripadvisor</span>
+                            <span class="rsc-stars">★★★★☆</span>
+                            <span class="rsc-meta">4.3 out of 5 · 96 reviews · #25 of 227 in South Shields</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Reviews -->
+                <div class="reviews-block">
+                    <h3 class="reviews-block-title">
+                        <span class="rpb rpb--google">G</span>
+                        Google Reviews
+                    </h3>
+                    <div class="reviews-grid">
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"The food is absolutely delicious. The restaurant is beautifully decorated and it's a really lovely place to have a lovely meal. The staff are very friendly and listened to exactly what I wanted. I could eat from there every single day."</p>
+                            <div class="review-meta">
+                                <span class="review-author">Abz Gray</span>
+                                <span class="review-badge-pill">Local Guide</span>
+                                <span class="review-date">4 months ago · £70–80 per person</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"The menu choice is extensive, the atmosphere was great, and the food was very tasty. The portion sizes were quite large. I had the chicken in blue cheese sauce — my friend had the chicken Parmo which was huge!"</p>
+                            <div class="review-meta">
+                                <span class="review-author">Julie Lightfoot MBE</span>
+                                <span class="review-badge-pill">Local Guide</span>
+                                <span class="review-date">9 months ago · £20–30 per person</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"We tried the take out. The food didn't disappoint — really nice, restaurant quality food. Portions were very generous and I would definitely recommend. Very reasonably priced."</p>
+                            <div class="review-meta">
+                                <span class="review-author">Tracey Stores</span>
+                                <span class="review-badge-pill">Local Guide</span>
+                                <span class="review-date">3 months ago · £30–40 per person</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"Really fantastic afternoon meal. Prawn starter was amazing, as was all of the pizzas. Great service. Reasonable prices. Very happy and will be back."</p>
+                            <div class="review-meta">
+                                <span class="review-author">Lee Dixon-Cave</span>
+                                <span class="review-badge-pill">Local Guide</span>
+                                <span class="review-date">3 months ago · £10–20 per person</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"As seafood lovers this place did not disappoint. Food is fresh and tasty. Chatted with the owner before leaving — very friendly. Our server Dylan was on top form. Great food and brilliant service. We will definitely be back."</p>
+                            <div class="review-meta">
+                                <span class="review-author">Ashleigh Jones</span>
+                                <span class="review-badge-pill">Local Guide</span>
+                                <span class="review-date">2 years ago · £20–30 per person</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Tripadvisor Reviews -->
+                <div class="reviews-block">
+                    <h3 class="reviews-block-title">
+                        <span class="rpb rpb--ta">T</span>
+                        Tripadvisor Reviews
+                    </h3>
+                    <div class="reviews-grid">
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"Absolutely delicious and tasted so fresh and authentic. The atmosphere is cozy and welcoming, and the staff are genuinely kind and attentive."</p>
+                            <div class="review-meta">
+                                <span class="review-author">Boukendil S.</span>
+                                <span class="review-date">April 2026</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"The food was fantastic, and great value for money. The atmosphere was warm and welcoming. Highly recommend for anyone looking for a place to eat with the family."</p>
+                            <div class="review-meta">
+                                <span class="review-author">Dayne W.</span>
+                                <span class="review-date">March 2026</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"Beautiful inside — feels proper elegant and peaceful. Staff were amazing, fast service, food was absolutely mouth-watering. Will be back."</p>
+                            <div class="review-meta">
+                                <span class="review-author">Balloons O.</span>
+                                <span class="review-date">August 2025</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"A modern, cosy, friendly interior. The food was delicious — not just ok or good but really tasty. Good service. Excellent."</p>
+                            <div class="review-meta">
+                                <span class="review-author">Jane A.</span>
+                                <span class="review-date">July 2025</span>
+                            </div>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">★★★★★</div>
+                            <p class="review-text">"Four of us dined here and we thoroughly enjoyed our meal. The food was hot and very tasty. Plenty of parking nearby — highly recommended."</p>
+                            <div class="review-meta">
+                                <span class="review-author">Jaynell</span>
+                                <span class="review-date">October 2025</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="panel" id="contact">
+            <div class="panel-inner">
+                <p class="eyebrow">Contattaci</p>
+                <h2>Find Us</h2>
+
+                <div class="contact-grid">
+                    <div>
+                        <h3 class="contact-h">Address</h3>
+                        <p>252B Sunderland Road<br />South Shields NE34 6QY<br />United Kingdom</p>
+
+                        <h3 class="contact-h">Phone</h3>
+                        <p><a href="tel:+441916915531">0191 691 5531</a></p>
+
+                        <h3 class="contact-h">Email</h3>
+                        <p><a href="mailto:olivetreenook@gmail.com">olivetreenook@gmail.com</a></p>
+
+                        <h3 class="contact-h">Follow</h3>
+                        <p><a href="https://www.facebook.com/profile.php?id=100093670509996" target="_blank" rel="noopener">Olivetto on Facebook →</a></p>
+                    </div>
+
+                    <div class="map-wrap">
+                        <iframe
+                            title="Olivetto location map"
+                            src="https://www.google.com/maps?q=252B+Sunderland+Road,+South+Shields+NE34+6QY&output=embed"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOURS -->
+        <section class="panel" id="hours">
+            <div class="panel-inner">
+                <p class="eyebrow">Orari</p>
+                <h2>Opening Hours</h2>
+                <p>We are closed on Mondays. Last orders typically 30 minutes before close. Open from 10 AM daily (except Monday).</p>
+
+                <ul class="hours-list">
+                    <li class="closed"><span>Monday</span><span>Closed</span></li>
+                    <li><span>Tuesday</span><span>10:00 — 22:00</span></li>
+                    <li><span>Wednesday</span><span>10:00 — 22:00</span></li>
+                    <li><span>Thursday</span><span>10:00 — 22:00</span></li>
+                    <li><span>Friday</span><span>10:00 — 23:00</span></li>
+                    <li><span>Saturday</span><span>10:00 — 23:00</span></li>
+                    <li><span>Sunday</span><span>10:00 — 21:00</span></li>
+                </ul>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <p>© <span id="year"></span> Olivetto · 252B Sunderland Road, South Shields NE34 6QY</p>
+                <p class="footer-small">Italian · Pizza · Pasta · Steaks · Seafood · Travellers' Choice 2025</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Backdrop for mobile sidebar -->
+    <div class="backdrop" id="backdrop" aria-hidden="true"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
