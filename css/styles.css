@@ -193,8 +193,8 @@ button { font-family: inherit; cursor: pointer; }
     margin-bottom: 0.5rem;
 }
 .brand-script {
-    font-family: var(--font-script);
-    font-size: 6rem;
+    font-family: var(--font-body);
+    font-size: 4.5rem;
     line-height: 1;
     text-align: center;
     color: var(--gold-bright);
