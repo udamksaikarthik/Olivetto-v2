@@ -1059,10 +1059,18 @@ p {
 
 /* Our Story — text + chef image */
 .story-split {
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
+    display: flex;
+    flex-direction: column;
     gap: 3rem;
     align-items: start;
+    justify-content: center;
+}
+
+.story-image-col{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .story-image-col img {
